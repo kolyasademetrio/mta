@@ -1,0 +1,757 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0c9ef185-379e-46b0-b7fc-5bf0be9140d3" name="Default" comment="" />
+    <ignored path="alga-dev.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DatabaseView">
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="alga-dev" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="custom-home.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/templates/custom-home.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" column="36" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="36" />
+              <folding>
+                <element signature="e#103#207#0#HTML" expanded="true" />
+                <marker date="1542807056879" expanded="true" signature="460:540" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="functions.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/functions.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="7950">
+              <caret line="554" column="12" selection-start-line="554" selection-start-column="6" selection-end-line="554" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/header.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="277">
+              <caret line="66" column="68" selection-start-line="66" selection-start-column="56" selection-end-line="66" selection-end-column="68" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="footer.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/footer.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/index.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/style.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="473">
+              <caret line="128" column="32" selection-start-line="128" selection-start-column="32" selection-end-line="128" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fonts.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/css/fonts.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2049">
+              <caret line="250" column="100" selection-start-line="250" selection-start-column="100" selection-end-line="250" selection-end-column="100" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="page.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/page.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="45">
+              <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="init.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/js/custom-js/init.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="30">
+              <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="custom.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/js/custom-js/custom.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="690">
+              <caret line="46" column="36" selection-start-line="46" selection-start-column="36" selection-end-line="46" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/wp-content/plugins/woocommerce/templates/cart/cart.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/twentyfifteen/woocommerce/single-product-reviews.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/twentyfifteen/archive-movies.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/twentyfifteen/index.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/twentyfifteen/archive.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/simple-liqpay/simple-liqpay.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/test/test.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/tutsplus-shipping/tutsplus-shipping.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/twentyfifteen/woocommerce/emails/email-order-details.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/woocommerce/templates/emails/admin-new-order.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/woocommerce/templates/emails/plain/email-addresses.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/woocommerce/templates/emails/plain/email-customer-details.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/woocommerce/templates/emails/email-addresses.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/twentyfifteen/woocommerce/order/order-details-customer.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/twentyfifteen/templates/custom-category-page.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/twentyfifteen/woocommerce/archive-product.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/twentyfifteen/woocommerce/content-product.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/twentyfifteen/woocommerce/emails/email-addresses.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/twentyfifteen/css/custom-css/custom-admin.css" />
+        <option value="$PROJECT_DIR$/wp-content/themes/twentyfifteen/search.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/twentyfifteen/templates/custom-questions.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/twentyfifteen/single-questions.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/twentyfifteen/single-offers.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/twentyfifteen/content-page.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/twentyfifteen/archive-usersfeedback.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/twentyfifteen/templates/custom-offers.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/twentyfifteen/woocommerce/content-single-product.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/twentyfifteen/templates/good-item-single.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/twentyfifteen/woocommerce/myaccount/form-login.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/twentyfifteen/woocommerce/checkout/form-login.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/woocommerce/templates/checkout/form-login.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/woocommerce/templates/global/form-login.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/twentyfifteen/woocommerce/global/form-login.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/twentyfifteen/woocommerce/checkout/payment.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/twentyfifteen/woocommerce/checkout/thankyou.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/woocommerce/templates/myaccount/navigation.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/twentyfifteen/woocommerce/cart/my-cart-shipping.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/twentyfifteen/woocommerce/myaccount/form-edit-account.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/twentyfifteen/templates/custom-contacts.php" />
+        <option value="$PROJECT_DIR$/wp-config.php" />
+        <option value="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro-master/assets/js/acf-input.min.js" />
+        <option value="$PROJECT_DIR$/wp-content/themes/twentyfifteen/functions.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/twentyfifteen/footer.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/twentyfifteen/js/custom-js/jquery-1.12.3.min.js" />
+        <option value="$PROJECT_DIR$/wp-content/themes/twentyfifteen/page.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/twentyfifteen/css/fonts.css" />
+        <option value="$PROJECT_DIR$/wp-content/themes/twentyfifteen/templates/custom-home.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/twentyfifteen/js/custom-js/init.js" />
+        <option value="$PROJECT_DIR$/wp-content/themes/twentyfifteen/header.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/twentyfifteen/style.css" />
+        <option value="$PROJECT_DIR$/wp-content/themes/twentyfifteen/js/custom-js/custom.js" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="61" />
+    <option name="y" value="24" />
+    <option name="width" value="1859" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mta.local" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mta.local" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mta.local" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mta.local" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mta.local" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mta.local" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mta.local" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mta.local" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mta.local" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="twentyfifteen" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mta.local" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mta.local" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="twentyfifteen" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mta.local" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mta.local" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="wp-content" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="themes" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="twentyfifteen" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="custom-js" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.intellij.ide.scratch.ScratchProjectViewPane$MyProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Extensions" />
+              <option name="myItemType" value="com.intellij.ide.scratch.ScratchProjectViewPane$MyRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com.intellij.database" />
+              <option name="myItemType" value="com.intellij.ide.scratch.ScratchProjectViewPane$MyPsiNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Problems" />
+        <subPane subId="Project Files" />
+        <subPane subId="Tests" />
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../alga.local" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="js-jscs-nodeInterpreter" value="/usr/bin/node" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/wp-content/themes/twentyfifteen/js/custom-js/init.js" />
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0c9ef185-379e-46b0-b7fc-5bf0be9140d3" name="Default" comment="" />
+      <created>1532440239285</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1532440239285</updated>
+      <workItem from="1532440240851" duration="6052000" />
+      <workItem from="1532502723977" duration="10701000" />
+      <workItem from="1532586959949" duration="1473000" />
+      <workItem from="1532598967128" duration="6591000" />
+      <workItem from="1532673818461" duration="8778000" />
+      <workItem from="1532932845879" duration="15969000" />
+      <workItem from="1532953823425" duration="1351000" />
+      <workItem from="1532955583958" duration="26781000" />
+      <workItem from="1533105480432" duration="24735000" />
+      <workItem from="1533192291445" duration="25181000" />
+      <workItem from="1533277813804" duration="3940000" />
+      <workItem from="1533282701717" duration="2438000" />
+      <workItem from="1533285939226" duration="17027000" />
+      <workItem from="1533536500255" duration="26655000" />
+      <workItem from="1533623422482" duration="23506000" />
+      <workItem from="1533710499443" duration="18926000" />
+      <workItem from="1533796929176" duration="18625000" />
+      <workItem from="1533882987948" duration="5599000" />
+      <workItem from="1533908999787" duration="5823000" />
+      <workItem from="1534141922839" duration="26870000" />
+      <workItem from="1534228995833" duration="3491000" />
+      <workItem from="1534315375572" duration="24105000" />
+      <workItem from="1534402287899" duration="29778000" />
+      <workItem from="1534487148384" duration="16869000" />
+      <workItem from="1534508733448" duration="7804000" />
+      <workItem from="1534747357599" duration="28900000" />
+      <workItem from="1534831638246" duration="27666000" />
+      <workItem from="1534920048560" duration="20747000" />
+      <workItem from="1535007276057" duration="25530000" />
+      <workItem from="1535359724412" duration="22291000" />
+      <workItem from="1535439592319" duration="23924000" />
+      <workItem from="1535525203139" duration="6134000" />
+      <workItem from="1535556469760" duration="58000" />
+      <workItem from="1535633419010" duration="2031000" />
+      <workItem from="1535697722030" duration="15448000" />
+      <workItem from="1535720053243" duration="10479000" />
+      <workItem from="1535955130848" duration="972000" />
+      <workItem from="1536042046842" duration="3314000" />
+      <workItem from="1536050528292" duration="773000" />
+      <workItem from="1536053875860" duration="3367000" />
+      <workItem from="1536234078315" duration="11820000" />
+      <workItem from="1536331402408" duration="666000" />
+      <workItem from="1536567715504" duration="9153000" />
+      <workItem from="1536589589312" duration="3002000" />
+      <workItem from="1536648875342" duration="19206000" />
+      <workItem from="1536763125980" duration="1497000" />
+      <workItem from="1537169598645" duration="3133000" />
+      <workItem from="1537187692140" duration="2500000" />
+      <workItem from="1537251882761" duration="58000" />
+      <workItem from="1537365725873" duration="2211000" />
+      <workItem from="1538035701382" duration="4406000" />
+      <workItem from="1538052513989" duration="1920000" />
+      <workItem from="1538120459966" duration="6211000" />
+      <workItem from="1538376321342" duration="689000" />
+      <workItem from="1538731424961" duration="2212000" />
+      <workItem from="1538981802539" duration="4800000" />
+      <workItem from="1539092109037" duration="2718000" />
+      <workItem from="1539161376333" duration="884000" />
+      <workItem from="1539332321524" duration="5336000" />
+      <workItem from="1539679553461" duration="143000" />
+      <workItem from="1539691407235" duration="599000" />
+      <workItem from="1539953446692" duration="2797000" />
+      <workItem from="1540189397271" duration="155000" />
+      <workItem from="1540190768245" duration="1173000" />
+      <workItem from="1540198838526" duration="1575000" />
+      <workItem from="1540276680517" duration="9611000" />
+      <workItem from="1540363551401" duration="22125000" />
+      <workItem from="1540391950323" duration="1860000" />
+      <workItem from="1540466823638" duration="6801000" />
+      <workItem from="1540807989649" duration="11362000" />
+      <workItem from="1540885893570" duration="8438000" />
+      <workItem from="1540971884065" duration="11192000" />
+      <workItem from="1541059033166" duration="2690000" />
+      <workItem from="1541080539003" duration="1254000" />
+      <workItem from="1541083621287" duration="1456000" />
+      <workItem from="1541142245029" duration="254000" />
+      <workItem from="1541164374973" duration="627000" />
+      <workItem from="1541426715439" duration="2333000" />
+      <workItem from="1541490146461" duration="309000" />
+      <workItem from="1541679872359" duration="2632000" />
+      <workItem from="1542643593672" duration="1101000" />
+      <workItem from="1542699101721" duration="109000" />
+      <workItem from="1542699232071" duration="187000" />
+      <workItem from="1542699472026" duration="8000" />
+      <workItem from="1542699762197" duration="20321000" />
+      <workItem from="1542786263153" duration="10961000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="755197000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="61" y="24" width="1859" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25923884" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27854386" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984003" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2498621" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20729166" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5572917" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+    </ignored-roots>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="3" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/woocommerce/archive-product.php" />
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/woocommerce/content-product.php" />
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/single-movies.php" />
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/single-usersfeedback.php" />
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/single-offers.php" />
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/single-questions.php" />
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/templates/custom-questions.php" />
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/archive-usersfeedback.php" />
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/content-page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="20" column="42" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/woocommerce/content-single-product.php" />
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/woocommerce/templates/myaccount/form-edit-account.php" />
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/class-wc-ajax.php" />
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/templates/good-item-single.php" />
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/woocommerce/templates/myaccount/form-login.php" />
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/woocommerce/templates/checkout/form-login.php" />
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/woocommerce/checkout/form-login.php" />
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/woocommerce/templates/global/form-login.php" />
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/woocommerce/myaccount/form-login.php" />
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/woocommerce/templates/checkout/payment.php" />
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/woocommerce/order/order-details-customer.php" />
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/woocommerce/global/form-login.php" />
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/woocommerce/templates/checkout/thankyou.php" />
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/woocommerce/checkout/thankyou.php" />
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/woocommerce/templates/myaccount/navigation.php" />
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/woocommerce/cart/my-cart-shipping.php" />
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/woocommerce/checkout/review-order.php" />
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/woocommerce/includes/wc-formatting-functions.php" />
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/woocommerce/checkout/payment.php" />
+    <entry file="file://$PROJECT_DIR$/wp-login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-943">
+          <caret line="626" column="11" selection-start-line="626" selection-start-column="11" selection-end-line="626" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/images/pay-method.jpeg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/woocommerce/myaccount/form-edit-account.php" />
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/images/bg-test.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/templates/custom-offers.php" />
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/templates/custom-contacts.php" />
+    <entry file="file://$PROJECT_DIR$/wp-config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1185">
+          <caret line="88" column="0" selection-start-line="88" selection-start-column="0" selection-end-line="88" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/plugins/slick-slider/slick-theme.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="133" column="0" selection-start-line="133" selection-start-column="0" selection-end-line="133" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/plugins/slick-slider/slick.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="101" column="1" selection-start-line="101" selection-start-column="1" selection-end-line="101" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro-master/acf.php" />
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro-master/assets/js/acf-input.min.js" />
+    <entry file="file://$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro-master/readme.txt" />
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/js/custom-js/jquery-1.12.3.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="872">
+          <caret line="4" column="1068" selection-start-line="4" selection-start-column="1068" selection-end-line="4" selection-end-column="1068" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/functions.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7950">
+          <caret line="554" column="12" selection-start-line="554" selection-start-column="6" selection-end-line="554" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/page.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/css/fonts.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2049">
+          <caret line="250" column="100" selection-start-line="250" selection-start-column="100" selection-end-line="250" selection-end-column="100" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/templates/custom-home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="36" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="36" />
+          <folding>
+            <element signature="e#103#207#0#HTML" expanded="true" />
+            <marker date="1542807056879" expanded="true" signature="460:540" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/js/custom-js/init.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="66" column="68" selection-start-line="66" selection-start-column="56" selection-end-line="66" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="473">
+          <caret line="128" column="32" selection-start-line="128" selection-start-column="32" selection-end-line="128" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/js/custom-js/custom.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="46" column="36" selection-start-line="46" selection-start-column="36" selection-end-line="46" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
