@@ -851,15 +851,15 @@ class Kama_Breadcrumbs {
 				}
 				// singular, paged post_type_archive, tax
 				else{
-					if ( is_shop() ) {
+					/*if ( is_shop() ) {
 						$home_after = sprintf( $linkpatt, get_post_type_archive_link($ptype->name), 'Ассортимент' );
 
 						$home_after .= ( ($paged_num && ! is_tax()) ? $pg_end : $sep ); // пагинация
-					} else {
+					} else {*/
 						$home_after = sprintf( $linkpatt, get_post_type_archive_link($ptype->name), $pt_title );
 
 						$home_after .= ( ($paged_num && ! is_tax()) ? $pg_end : $sep ); // пагинация
-					}
+					/*}*/
 				}
 			}
 		}
@@ -958,4 +958,91 @@ function cf($name) {
 	echo trim(CFS()->get($name));
 }
 /* моя функция для Custom Field Suite End */
+
+
+/* Creating a function to create our CPT */
+function custom_post_type() {
+    $labels = array(
+        'name'                => _x( 'Продукция', 'Post Type General Name', 'twentyfifteen' ),
+        'singular_name'       => _x( 'Продукт', 'Post Type Singular Name', 'twentyfifteen' ),
+        'menu_name'           => __( 'Продукция', 'twentyfifteen' ),
+        'parent_item_colon'   => __( 'Parent Movie', 'twentyfifteen' ),
+        'all_items'           => __( 'Вся Продукция', 'twentyfifteen' ),
+        'view_item'           => __( 'Просмотреть', 'twentyfifteen' ),
+        'add_new_item'        => __( 'Добавить Продукт', 'twentyfifteen' ),
+        'add_new'             => __( 'Добавить', 'twentyfifteen' ),
+        'edit_item'           => __( 'Редактировать', 'twentyfifteen' ),
+        'update_item'         => __( 'Обновить', 'twentyfifteen' ),
+        'search_items'        => __( 'Найти', 'twentyfifteen' ),
+        'not_found'           => __( 'Не найдено', 'twentyfifteen' ),
+        'not_found_in_trash'  => __( 'В корзине не найдено', 'twentyfifteen' ),
+    );
+
+// Set other options for Custom Post Type
+
+    $args = array(
+        'label'               => __( 'products', 'twentyfifteen' ),
+        'description'         => __( 'Продукция', 'twentyfifteen' ),
+        'labels'              => $labels,
+        // Features this CPT supports in Post Editor
+        'supports'            => array( 'title', 'editor', 'excerpt', 'author', 'thumbnail', 'comments', 'revisions', 'custom-fields', ),
+        // You can associate this CPT with a taxonomy or custom taxonomy.
+        'taxonomies'          => array( 'genres' ),
+        /* A hierarchical CPT is like Pages and can have
+        * Parent and child items. A non-hierarchical CPT
+        * is like Posts.
+        */
+        'hierarchical'        => false,
+        'public'              => true,
+        'show_ui'             => true,
+        'show_in_menu'        => true,
+        'show_in_nav_menus'   => true,
+        'show_in_admin_bar'   => true,
+        'menu_position'       => 5,
+        'can_export'          => true,
+        'has_archive'         => true,
+        'exclude_from_search' => false,
+        'publicly_queryable'  => true,
+        'capability_type'     => 'page',
+    );
+
+    // Registering your Custom Post Type
+    register_post_type( 'products', $args );
+
+}
+add_action( 'init', 'custom_post_type', 0 );
+
+
+/* Отключаем srcset и sizes для картинок в WordPress */
+// Отменяем srcset
+// выходим на раннем этапе, этот фильтр лучше чем 'wp_calculate_image_srcset'
+add_filter('wp_calculate_image_srcset_meta', '__return_null' );
+
+// Отменяем sizes - это поздний фильтр, но раннего как для srcset пока нет...
+add_filter('wp_calculate_image_sizes', '__return_false',  99 );
+
+// Удаляем фильтр, который добавляет srcset ко всем картинкам в тексте записи
+remove_filter('the_content', 'wp_make_content_images_responsive' );
+
+// Очищаем атрибуты из wp_get_attachment_image(), если по каким-то причинам они там остались...
+add_filter('wp_get_attachment_image_attributes', 'unset_attach_srcset_attr', 99 );
+function unset_attach_srcset_attr( $attr ){
+    foreach( array('sizes','srcset') as $key )
+        if( isset($attr[ $key ]) )    unset($attr[ $key ]);
+    return $attr;
+}
+
+
+/* Добавить свой размер Изображения */
+add_image_size( 'product-featured-image', 570, 332, true );
+
+
+/* pll_register_string */
+add_action('init', function() {
+    pll_register_string('twentyfifteen', 'О компании');
+    pll_register_string('twentyfifteen', 'Продукция');
+    pll_register_string('twentyfifteen', 'Доставка');
+    pll_register_string('twentyfifteen', 'Преимущества доставки');
+    pll_register_string('twentyfifteen', 'Наши партнеры');
+});
 

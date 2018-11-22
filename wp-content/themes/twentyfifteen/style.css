@@ -555,9 +555,184 @@ section.section.aboutUs {
     padding: calc( 15px + 2.6896180742334588vw ) 0 1.6137708445400754vw;
 }
 
+
 section.section.aboutUs .section__content {
     color: #fff;
 }
 /* ---------------------------------------------------------------------------------------------------- */
 /* ----------------------------->>> section.section End <<<-------------------------------------------- */
+/* ---------------------------------------------------------------------------------------------------- */
+
+
+
+/* ---------------------------------------------------------------------------------------------------- */
+/* ----------------------------->>> products <<<------------------------------------------------------- */
+/* ---------------------------------------------------------------------------------------------------- */
+section.section.products {
+    padding: calc( 15px + 2.8645833333vw ) 0 calc( 15px + 2.8645833333vw );
+}
+
+.products__list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.products__item {
+    margin: 0 0 calc( 15px + 0.78125vw );
+
+    -ms-flex-preferred-size: 31.98%;
+    flex-basis: 31.98%;
+}
+
+.products__itemLink {
+    display: block;
+    width: 100%;
+    position: relative;
+}
+
+.products__itemLink>img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.products__itemTitle {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    font-family: "OpenSansSemiBold", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: calc( 14px + 0.5208333333333334vw );
+    line-height: 1.1;
+    padding: calc( 10px + 0.78125vw ) 10px;
+    background-color: rgba(100, 93, 156, .51);
+}
+/* ---------------------------------------------------------------------------------------------------- */
+/* ----------------------------->>> products End <<<--------------------------------------------------- */
+/* ---------------------------------------------------------------------------------------------------- */
+
+
+
+/* ---------------------------------------------------------------------------------------------------- */
+/* ----------------------------->>> delivery <<<------------------------------------------------------- */
+/* ---------------------------------------------------------------------------------------------------- */
+section.section.delivery {
+    padding: calc( 15px + 1.5625vw ) 0 calc( 15px + 1.5625vw );
+}
+
+.delivery_content {
+    font-family: "OpenSansLight", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 20px;
+    color: #fff;
+    line-height: 1.8;
+}
+
+.delivery__benefits {
+    padding: 15px 0 0;
+}
+
+.delivery__benefitsTitle {
+    font-family: "OpenSansSemiBold", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    font-size: calc( 15px + 0.2604166666666667vw );
+    margin: 0 0 calc( 15px + 1.5625vw );
+}
+
+.delivery__benefitsList {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.delivery__benefitItem {
+    -ms-flex-preferred-size: 24.5%;
+    flex-basis: 24.5%;
+    text-align: center;
+    margin: 0 0 20px;
+    padding: 0 7px;
+}
+
+.delivery__benefitItem_imgWrap {
+    display: inline-block;
+    border-radius: 50%;
+    width: calc( 100px + 2.8645833333333335vw );
+    height: calc( 100px + 2.8645833333333335vw );
+    line-height: calc( 100px + 2.8645833333333335vw );
+    text-align: center;
+    background-color: #9588fd;
+    margin: 0 0 10px;
+}
+
+.delivery__benefitItem_imgWrap>img {
+    max-width: calc( 55px + 1.8229166666666667vw );
+    height: auto;
+}
+
+.delivery__benefitItem_title {
+    font-family: "OpenSansLight", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 15px;
+    color: #fff;
+}
+
+@media ( max-width: 991px ) {
+    .delivery__benefitItem {
+        -ms-flex-preferred-size: 32.5%;
+        flex-basis: 32.5%;
+    }
+}
+
+@media ( max-width: 767px ) {
+    .delivery__benefitItem {
+        -ms-flex-preferred-size: 49%;
+        flex-basis: 49%;
+    }
+}
+
+@media ( max-width: 500px ) {
+    .delivery__benefitItem {
+        -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+    }
+}
+/* ---------------------------------------------------------------------------------------------------- */
+/* ----------------------------->>> delivery End <<<--------------------------------------------------- */
+/* ---------------------------------------------------------------------------------------------------- */
+
+
+
+/* ---------------------------------------------------------------------------------------------------- */
+/* ----------------------------->>> partners <<<------------------------------------------------------- */
+/* ---------------------------------------------------------------------------------------------------- */
+section.section.partners {
+    padding: calc( 15px + 3.90625vw ) 0 calc( 15px + 3.90625vw );
+}
+/* ---------------------------------------------------------------------------------------------------- */
+/* ----------------------------->>> partners End <<<--------------------------------------------------- */
 /* ---------------------------------------------------------------------------------------------------- */
