@@ -32,7 +32,7 @@ define('DB_PASSWORD', '12345678');
 define('DB_HOST', 'localhost');
 
 /** Кодировка базы данных для создания таблиц. */
-define('DB_CHARSET', 'utf8mb4');
+define('DB_CHARSET', 'utf8');
 
 /** Схема сопоставления. Не меняйте, если не уверены. */
 define('DB_COLLATE', '');
