@@ -8,15 +8,14 @@ jQuery(document).ready(function($){
         myFunction();
     });
 
-    var $header = $("#header__menus"),
-        sticky = $header.offset().top;
+     var sticky = $("#header__menus"),
+         stickyTop = $("#header__menus").offset().top;
 
     function myFunction() {
-        
-        console.log( 'window.pageYOffset', window.pageYOffset );
-        console.log( 'sticky', sticky );
-        
-        if (window.pageYOffset > sticky) {
+
+        var scroll = $(window).scrollTop();
+
+        if (scroll >= stickyTop) {
             $('header.header').addClass('sticky');
 
             var logoWidth = $('.header__logoLink.logo__hidden').outerWidth(),
@@ -31,12 +30,12 @@ jQuery(document).ready(function($){
 
             if ( !$('body.home').length ) {
                 $('.site__main').css({
-                   'padding-top': $('.header__menus').innerHeight(),
+                    'padding-top': $('.header__menus').innerHeight(),
                 });
             }
-
         } else {
-            $('header.header').removeClass("sticky");
+            $('header.header').removeClass('sticky');
+
             $('.header__nav').css({
                 'padding-left': '',
                 'padding-right': '',
@@ -49,6 +48,5 @@ jQuery(document).ready(function($){
             }
         }
     }
-
 
 });

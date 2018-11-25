@@ -1,6 +1,7 @@
 <?php /* Template Name: CustomPage */ ?>
 
 <?php get_header(); ?>
+<?php $locale = pll_current_language(); ?>
 
     <?php
     $about_bg = get_field('about_bg');
@@ -43,7 +44,12 @@
                                 <?php the_post_thumbnail('product-featured-image'); ?>
                             <?php endif ?>
                             <span class="products__itemTitle">
-                                <?php the_title(); ?>
+                                <span class="products__title">
+                                    <?php the_title(); ?>
+                                </span>
+                                <span class="products__btnReadMore">
+                                    <?php pll_e('Подробнее'); ?>
+                                </span>
                             </span>
                         </a>
                     </li>
@@ -105,14 +111,70 @@
             <?php if ( !empty( $partners ) ) : ?>
                 <ul class="partners__list">
                     <?php foreach( $partners as $partner ) : ?>
+
+                        <?php if ( $partner['show_partner'] ) : ?>
                         <li class="partner__item">
                             <a href="<?php echo $partner['link']; ?>" class="partner__link">
                                 <img src="<?php echo $partner['img']; ?>" alt="">
                             </a>
                         </li>
+                        <?php endif; ?>
                     <?php endforeach; ?>
                 </ul>
             <?php endif; ?>
+        </div>
+    </section>
+
+    <?php
+    $contacts_bg = get_field('contacts_bg', 'option');
+    $contacts_addresses = get_field('contacts_addresses_'.$locale, 'option');
+    $contacts_phones = get_field('contacts_phones_'.$locale, 'option');
+    $contacts_emailes = get_field('contacts_emailes_'.$locale, 'option');
+    ?>
+
+    <section class="section contacts" style="background-image: url(<?php echo !empty($contacts_bg) ? $contacts_bg : ''; ?>)">
+        <div class="section__titleWrap left_line light">
+            <div class="section__title"><?php pll_e('Контакты'); ?></div>
+        </div>
+        <div class="section__content containerCenter short">
+            <ul class="contacts__list">
+                <?php if ( !empty( $contacts_addresses ) ) : ?>
+                    <li class="contacts__item address">
+                        <div class="contacts__header">
+                            <img src="<?php echo get_field('contacts__address__icon'); ?>" alt="">
+                        </div>
+                        <div class="contacts__footer">
+                            <?php echo $contacts_addresses; ?>
+                        </div>
+                    </li>
+                <?php endif; ?>
+
+                <?php if ( !empty( $contacts_phones ) ) : ?>
+                    <li class="contacts__item phones">
+                        <div class="contacts__header">
+                            <img src="<?php echo get_field('contacts__phones__icon'); ?>" alt="">
+                        </div>
+                        <div class="contacts__footer">
+                            <?php foreach ( $contacts_phones as $phone ) : ?>
+                                <a href="tel:<?php echo str_replace( array(' ', '(', ')', '-'), '', $phone['phone'] ); ?>" class="contacts__phone"><?php echo $phone['phone']; ?></a>
+                            <?php endforeach; ?>
+                        </div>
+                    </li>
+                <?php endif; ?>
+
+                <?php if ( !empty( $contacts_emailes ) ) : ?>
+                    <li class="contacts__item emails">
+                        <div class="contacts__header">
+                            <img src="<?php echo get_field('contacts__emailes__icon'); ?>" alt="">
+                        </div>
+                        <div class="contacts__footer">
+                            <?php foreach ( $contacts_emailes as $email ) : ?>
+                                <a href="mailto:<?php echo str_replace( array(' ', '(', ')', '-'), '', $email['email'] ); ?>" class="contacts__email"><?php echo $email['email']; ?></a>
+                            <?php endforeach; ?>
+                        </div>
+                    </li>
+                <?php endif; ?>
+            </ul>
         </div>
     </section>
 
