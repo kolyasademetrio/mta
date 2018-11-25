@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0c9ef185-379e-46b0-b7fc-5bf0be9140d3" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/MTA-localhost-Dump2018-11-23.sql" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="alga-dev.iws" />
@@ -33,9 +34,22 @@
       <file leaf-file-name="custom-home.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/templates/custom-home.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1836">
-              <caret line="108" column="62" lean-forward="false" selection-start-line="108" selection-start-column="62" selection-end-line="108" selection-end-column="62" />
-              <folding />
+            <state relative-caret-position="300">
+              <caret line="131" column="51" lean-forward="false" selection-start-line="131" selection-start-column="51" selection-end-line="131" selection-end-column="51" />
+              <folding>
+                <marker date="1543124707653" expanded="true" signature="5671:5724" ph="..." />
+                <marker date="1543124707653" expanded="true" signature="5821:6096" ph="..." />
+                <marker date="1543124707653" expanded="true" signature="5861:6096" ph="..." />
+                <marker date="1543124707653" expanded="true" signature="5981:6096" ph="..." />
+                <marker date="1543124707653" expanded="true" signature="6036:6096" ph="..." />
+                <marker date="1543124707653" expanded="true" signature="6221:6315" ph="..." />
+                <marker date="1543124707653" expanded="true" signature="6490:6605" ph="..." />
+                <marker date="1543124707653" expanded="true" signature="6545:6605" ph="..." />
+                <marker date="1543124707653" expanded="true" signature="6729:6883" ph="..." />
+                <marker date="1543124707653" expanded="true" signature="7245:7360" ph="..." />
+                <marker date="1543124707653" expanded="true" signature="7300:7360" ph="..." />
+                <marker date="1543124707653" expanded="true" signature="7485:7643" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -44,7 +58,7 @@
         <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/functions.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="17357">
-              <caret line="1045" column="55" lean-forward="false" selection-start-line="1045" selection-start-column="42" selection-end-line="1045" selection-end-column="55" />
+              <caret line="1045" column="0" lean-forward="false" selection-start-line="1045" selection-start-column="0" selection-end-line="1045" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -53,8 +67,8 @@
       <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="986">
-              <caret line="66" column="68" lean-forward="false" selection-start-line="66" selection-start-column="56" selection-end-line="66" selection-end-column="68" />
+            <state relative-caret-position="221">
+              <caret line="29" column="42" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -63,8 +77,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="12461">
-              <caret line="733" column="53" lean-forward="false" selection-start-line="733" selection-start-column="53" selection-end-line="733" selection-end-column="53" />
+            <state relative-caret-position="419">
+              <caret line="904" column="23" lean-forward="false" selection-start-line="904" selection-start-column="23" selection-end-line="904" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -73,8 +87,8 @@
       <file leaf-file-name="init.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/js/custom-js/init.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="3" lean-forward="false" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
+            <state relative-caret-position="481">
+              <caret line="37" column="15" lean-forward="false" selection-start-line="37" selection-start-column="12" selection-end-line="37" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -84,7 +98,7 @@
         <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/js/custom-js/custom.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="782">
-              <caret line="46" column="36" lean-forward="false" selection-start-line="46" selection-start-column="36" selection-end-line="46" selection-end-column="36" />
+              <caret line="46" column="19" lean-forward="false" selection-start-line="46" selection-start-column="19" selection-end-line="46" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -93,18 +107,35 @@
       <file leaf-file-name="wp-config.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-config.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="28" column="23" lean-forward="false" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
+            <state relative-caret-position="17">
+              <caret line="30" column="17" lean-forward="false" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file leaf-file-name="footer.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/footer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="4" lean-forward="false" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+            <state relative-caret-position="272">
+              <caret line="96" column="78" lean-forward="false" selection-start-line="96" selection-start-column="78" selection-end-line="96" selection-end-column="78" />
+              <folding>
+                <marker date="1543125286054" expanded="true" signature="3125:3168" ph="..." />
+                <marker date="1543125286054" expanded="true" signature="3523:3566" ph="..." />
+                <marker date="1543125286054" expanded="true" signature="3956:3999" ph="..." />
+                <marker date="1543125286054" expanded="true" signature="4196:4475" ph="..." />
+                <marker date="1543125286054" expanded="true" signature="4235:4466" ph="..." />
+                <marker date="1543125286054" expanded="true" signature="4281:4456" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="slick.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/plugins/slick-slider/slick.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="702">
+              <caret line="1334" column="56" lean-forward="true" selection-start-line="1334" selection-start-column="56" selection-end-line="1334" selection-end-column="56" />
               <folding />
             </state>
           </provider>
@@ -116,6 +147,11 @@
     <findStrings>
       <find>section</find>
       <find>twentyfif</find>
+      <find>locale</find>
+      <find>local</find>
+      <find>centerMode</find>
+      <find>Slick.prototype.initUI</find>
+      <find>contacts</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -124,7 +160,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/wp-content/themes/twentyfifteen/archive-movies.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/twentyfifteen/index.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/twentyfifteen/archive.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/simple-liqpay/simple-liqpay.php" />
@@ -162,19 +197,20 @@
         <option value="$PROJECT_DIR$/wp-content/themes/twentyfifteen/woocommerce/myaccount/form-edit-account.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/twentyfifteen/templates/custom-contacts.php" />
         <option value="$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro-master/assets/js/acf-input.min.js" />
-        <option value="$PROJECT_DIR$/wp-content/themes/twentyfifteen/footer.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/twentyfifteen/js/custom-js/jquery-1.12.3.min.js" />
         <option value="$PROJECT_DIR$/wp-content/themes/twentyfifteen/page.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/twentyfifteen/css/fonts.css" />
-        <option value="$PROJECT_DIR$/wp-content/themes/twentyfifteen/js/custom-js/init.js" />
         <option value="$PROJECT_DIR$/wp-content/themes/twentyfifteen/header.php" />
         <option value="$PROJECT_DIR$/wp-content/themes/twentyfifteen/js/custom-js/custom.js" />
-        <option value="$PROJECT_DIR$/wp-config.php" />
         <option value="$PROJECT_DIR$/.htaccess" />
         <option value="$PROJECT_DIR$/wp-content/themes/twentyfifteen/functions.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/twentyfifteen/templates/custom-home.php" />
-        <option value="$PROJECT_DIR$/wp-content/themes/twentyfifteen/style.css" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/wp-config.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/twentyfifteen/templates/custom-home.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/twentyfifteen/footer.php" />
+        <option value="$PROJECT_DIR$/wp-content/themes/twentyfifteen/js/custom-js/init.js" />
+        <option value="$PROJECT_DIR$/wp-content/themes/twentyfifteen/plugins/slick-slider/slick.js" />
+        <option value="$PROJECT_DIR$/wp-content/themes/twentyfifteen/style.css" />
       </list>
     </option>
   </component>
@@ -209,20 +245,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mta.local" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mta.local" />
-              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="Scope" />
       <pane id="Scratches">
         <subPane>
@@ -238,6 +260,20 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="com.intellij.database" />
               <option name="myItemType" value="com.intellij.ide.scratch.ScratchProjectViewPane$MyPsiNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mta.local" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mta.local" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -442,6 +478,8 @@
       <workItem from="1542881338957" duration="19000" />
       <workItem from="1542882077868" duration="15606000" />
       <workItem from="1543045117616" duration="703000" />
+      <workItem from="1543048265614" duration="157000" />
+      <workItem from="1543123944803" duration="5514000" />
     </task>
     <task id="LOCAL-00001" summary="homework">
       <created>1542919731963</created>
@@ -450,20 +488,28 @@
       <option name="project" value="LOCAL" />
       <updated>1542919731963</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="вс">
+      <created>1543170897786</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1543170897786</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="774701000" />
+    <option name="totallyTimeSpent" value="780372000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="0" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25923884" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21776505" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2234957" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984003" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5572917" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2498621" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -471,12 +517,12 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20729166" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5572917" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -499,7 +545,8 @@
       <path value="$PROJECT_DIR$/.." />
     </ignored-roots>
     <MESSAGE value="homework" />
-    <option name="LAST_COMMIT_MESSAGE" value="homework" />
+    <MESSAGE value="вс" />
+    <option name="LAST_COMMIT_MESSAGE" value="вс" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -508,8 +555,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/single-movies.php" />
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/single-usersfeedback.php" />
     <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/single-offers.php" />
     <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/single-questions.php" />
     <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/templates/custom-questions.php" />
@@ -577,13 +622,6 @@
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro-master/acf.php" />
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro-master/assets/js/acf-input.min.js" />
     <entry file="file://$PROJECT_DIR$/wp-content/plugins/advanced-custom-fields-pro-master/readme.txt" />
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/footer.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -598,18 +636,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/js/custom-js/init.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="3" lean-forward="false" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/js/custom-js/custom.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="782">
-          <caret line="46" column="36" lean-forward="false" selection-start-line="46" selection-start-column="36" selection-end-line="46" selection-end-column="36" />
+          <caret line="46" column="19" lean-forward="false" selection-start-line="46" selection-start-column="19" selection-end-line="46" selection-end-column="19" />
           <folding />
         </state>
       </provider>
@@ -628,42 +658,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/header.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="986">
-          <caret line="66" column="68" lean-forward="false" selection-start-line="66" selection-start-column="56" selection-end-line="66" selection-end-column="68" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/functions.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17357">
-          <caret line="1045" column="55" lean-forward="false" selection-start-line="1045" selection-start-column="42" selection-end-line="1045" selection-end-column="55" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/templates/custom-home.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1836">
-          <caret line="108" column="62" lean-forward="false" selection-start-line="108" selection-start-column="62" selection-end-line="108" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="12461">
-          <caret line="733" column="53" lean-forward="false" selection-start-line="733" selection-start-column="53" selection-end-line="733" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/wp-config.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="28" column="23" lean-forward="false" selection-start-line="28" selection-start-column="23" selection-end-line="28" selection-end-column="23" />
+          <caret line="1045" column="0" lean-forward="false" selection-start-line="1045" selection-start-column="0" selection-end-line="1045" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -679,6 +677,87 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
           <caret line="2" column="4" lean-forward="false" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="30" column="17" lean-forward="false" selection-start-line="30" selection-start-column="17" selection-end-line="30" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/header.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="29" column="42" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/templates/custom-home.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="131" column="51" lean-forward="false" selection-start-line="131" selection-start-column="51" selection-end-line="131" selection-end-column="51" />
+          <folding>
+            <marker date="1543124707653" expanded="true" signature="5671:5724" ph="..." />
+            <marker date="1543124707653" expanded="true" signature="5821:6096" ph="..." />
+            <marker date="1543124707653" expanded="true" signature="5861:6096" ph="..." />
+            <marker date="1543124707653" expanded="true" signature="5981:6096" ph="..." />
+            <marker date="1543124707653" expanded="true" signature="6036:6096" ph="..." />
+            <marker date="1543124707653" expanded="true" signature="6221:6315" ph="..." />
+            <marker date="1543124707653" expanded="true" signature="6490:6605" ph="..." />
+            <marker date="1543124707653" expanded="true" signature="6545:6605" ph="..." />
+            <marker date="1543124707653" expanded="true" signature="6729:6883" ph="..." />
+            <marker date="1543124707653" expanded="true" signature="7245:7360" ph="..." />
+            <marker date="1543124707653" expanded="true" signature="7300:7360" ph="..." />
+            <marker date="1543124707653" expanded="true" signature="7485:7643" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/uploads/2018/11/Р¦РњРў-1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/footer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="96" column="78" lean-forward="false" selection-start-line="96" selection-start-column="78" selection-end-line="96" selection-end-column="78" />
+          <folding>
+            <marker date="1543125286054" expanded="true" signature="3125:3168" ph="..." />
+            <marker date="1543125286054" expanded="true" signature="3523:3566" ph="..." />
+            <marker date="1543125286054" expanded="true" signature="3956:3999" ph="..." />
+            <marker date="1543125286054" expanded="true" signature="4196:4475" ph="..." />
+            <marker date="1543125286054" expanded="true" signature="4235:4466" ph="..." />
+            <marker date="1543125286054" expanded="true" signature="4281:4456" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/js/custom-js/init.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="481">
+          <caret line="37" column="15" lean-forward="false" selection-start-line="37" selection-start-column="12" selection-end-line="37" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="419">
+          <caret line="904" column="23" lean-forward="false" selection-start-line="904" selection-start-column="23" selection-end-line="904" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/plugins/slick-slider/slick.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="702">
+          <caret line="1334" column="56" lean-forward="true" selection-start-line="1334" selection-start-column="56" selection-end-line="1334" selection-end-column="56" />
           <folding />
         </state>
       </provider>
