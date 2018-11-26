@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0c9ef185-379e-46b0-b7fc-5bf0be9140d3" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/mta.sql" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/js/custom-js/custom.js" afterPath="$PROJECT_DIR$/wp-content/themes/twentyfifteen/js/custom-js/custom.js" />
     </list>
     <ignored path="alga-dev.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -36,12 +34,9 @@
       <file leaf-file-name="custom-home.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/templates/custom-home.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="218">
+            <state relative-caret-position="2130">
               <caret line="142" column="83" selection-start-line="142" selection-start-column="60" selection-end-line="142" selection-end-column="83" />
-              <folding>
-                <element signature="e#2627#2713#0#HTML" expanded="true" />
-                <element signature="e#5458#5544#0#HTML" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -49,19 +44,9 @@
       <file leaf-file-name="footer.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/footer.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="429">
+            <state relative-caret-position="1590">
               <caret line="114" column="78" selection-start-line="114" selection-start-column="78" selection-end-line="114" selection-end-column="78" />
-              <folding>
-                <element signature="n#style#0;n#li#0;n#ul#0;n#div#3;n#div#0;n#div#0;n#div#0;n#footer#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#li#1;n#ul#0;n#div#3;n#div#0;n#div#0;n#div#0;n#footer#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#li#2;n#ul#0;n#div#3;n#div#0;n#div#0;n#div#0;n#footer#0;n#!!top" expanded="true" />
-                <marker date="1542986749334" expanded="true" signature="870:1731" ph="..." />
-                <marker date="1542986749334" expanded="true" signature="1766:2594" ph="..." />
-                <marker date="1542986749334" expanded="true" signature="2629:4110" ph="..." />
-                <marker date="1542986749334" expanded="true" signature="4169:4448" ph="..." />
-                <marker date="1542986749334" expanded="true" signature="4208:4439" ph="..." />
-                <marker date="1542986749334" expanded="true" signature="4254:4429" ph="..." />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -69,7 +54,7 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
+            <state relative-caret-position="3045">
               <caret line="203" column="49" selection-start-line="203" selection-start-column="49" selection-end-line="203" selection-end-column="49" />
               <folding />
             </state>
@@ -79,7 +64,7 @@
       <file leaf-file-name="init.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/js/custom-js/init.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
+            <state relative-caret-position="390">
               <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
               <folding />
             </state>
@@ -89,7 +74,7 @@
       <file leaf-file-name="functions.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/functions.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="685">
+            <state relative-caret-position="15825">
               <caret line="1079" column="51" selection-start-line="1079" selection-start-column="42" selection-end-line="1079" selection-end-column="51" />
               <folding />
             </state>
@@ -99,7 +84,7 @@
       <file leaf-file-name="header.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/header.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
+            <state relative-caret-position="1185">
               <caret line="87" column="58" selection-start-line="87" selection-start-column="58" selection-end-line="87" selection-end-column="58" />
               <folding />
             </state>
@@ -239,24 +224,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" />
-              <option name="myItemType" value="com.intellij.ide.scratch.ScratchProjectViewPane$MyProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Extensions" />
-              <option name="myItemType" value="com.intellij.ide.scratch.ScratchProjectViewPane$MyRootNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="com.intellij.database" />
-              <option name="myItemType" value="com.intellij.ide.scratch.ScratchProjectViewPane$MyPsiNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="Scope">
         <subPane subId="Problems" />
         <subPane subId="Project Files" />
@@ -278,6 +245,24 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="mta.local" />
               <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.intellij.ide.scratch.ScratchProjectViewPane$MyProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Extensions" />
+              <option name="myItemType" value="com.intellij.ide.scratch.ScratchProjectViewPane$MyRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="com.intellij.database" />
+              <option name="myItemType" value="com.intellij.ide.scratch.ScratchProjectViewPane$MyPsiNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -429,7 +414,8 @@
       <workItem from="1542699762197" duration="20321000" />
       <workItem from="1542786263153" duration="11213000" />
       <workItem from="1542957875773" duration="181000" />
-      <workItem from="1542958110884" duration="22561000" />
+      <workItem from="1542958110884" duration="22638000" />
+      <workItem from="1543215784142" duration="80000" />
     </task>
     <task id="LOCAL-00001" summary="workspace.xml">
       <created>1542957972762</created>
@@ -445,22 +431,29 @@
       <option name="project" value="LOCAL" />
       <updated>1542988164936</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="правки за пятницу + липкий хеадер&#10;">
+      <created>1542989032798</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1542989032798</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="778191000" />
+    <option name="totallyTimeSpent" value="778348000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="61" y="24" width="1859" height="1056" extended-state="6" />
     <editor active="false" />
     <layout>
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25923884" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25151682" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2542747" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984003" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32916668" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2498621" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -493,7 +486,8 @@
     </ignored-roots>
     <MESSAGE value="workspace.xml" />
     <MESSAGE value="правки за пятницу" />
-    <option name="LAST_COMMIT_MESSAGE" value="правки за пятницу" />
+    <MESSAGE value="правки за пятницу + липкий хеадер&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="правки за пятницу + липкий хеадер&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -577,7 +571,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -606,7 +599,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/js/custom-js/init.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
+        <state relative-caret-position="390">
           <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
           <folding />
         </state>
@@ -614,7 +607,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/header.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
+        <state relative-caret-position="1185">
           <caret line="87" column="58" selection-start-line="87" selection-start-column="58" selection-end-line="87" selection-end-column="58" />
           <folding />
         </state>
@@ -622,7 +615,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/functions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="685">
+        <state relative-caret-position="15825">
           <caret line="1079" column="51" selection-start-line="1079" selection-start-column="42" selection-end-line="1079" selection-end-column="51" />
           <folding />
         </state>
@@ -630,36 +623,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/templates/custom-home.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
+        <state relative-caret-position="2130">
           <caret line="142" column="83" selection-start-line="142" selection-start-column="60" selection-end-line="142" selection-end-column="83" />
-          <folding>
-            <element signature="e#2627#2713#0#HTML" expanded="true" />
-            <element signature="e#5458#5544#0#HTML" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/footer.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
+        <state relative-caret-position="1590">
           <caret line="114" column="78" selection-start-line="114" selection-start-column="78" selection-end-line="114" selection-end-column="78" />
-          <folding>
-            <element signature="n#style#0;n#li#0;n#ul#0;n#div#3;n#div#0;n#div#0;n#div#0;n#footer#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#1;n#ul#0;n#div#3;n#div#0;n#div#0;n#div#0;n#footer#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#li#2;n#ul#0;n#div#3;n#div#0;n#div#0;n#div#0;n#footer#0;n#!!top" expanded="true" />
-            <marker date="1542986749334" expanded="true" signature="870:1731" ph="..." />
-            <marker date="1542986749334" expanded="true" signature="1766:2594" ph="..." />
-            <marker date="1542986749334" expanded="true" signature="2629:4110" ph="..." />
-            <marker date="1542986749334" expanded="true" signature="4169:4448" ph="..." />
-            <marker date="1542986749334" expanded="true" signature="4208:4439" ph="..." />
-            <marker date="1542986749334" expanded="true" signature="4254:4429" ph="..." />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wp-content/themes/twentyfifteen/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
+        <state relative-caret-position="3045">
           <caret line="203" column="49" selection-start-line="203" selection-start-column="49" selection-end-line="203" selection-end-column="49" />
           <folding />
         </state>
@@ -669,7 +649,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="34" column="26" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
