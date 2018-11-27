@@ -94,9 +94,9 @@
 							<?php pll_e('Контакты'); ?>
 						</div>
 						<?php
-						$contacts_addresses = get_field('contacts_addresses', 'option');
-						$contacts_phones = get_field('contacts_phones', 'option');
-						$contacts_emailes = get_field('contacts_emailes', 'option');
+						$contacts_addresses = get_field('contacts_addresses_'.$locale, 'option');
+						$contacts_phones = get_field('contacts_phones_'.$locale, 'option');
+						$contacts_emailes = get_field('contacts_emailes_'.$locale, 'option');
 						?>
 						<ul class="footerTop__contactsList">
 							<?php if ( !empty($contacts_phones) ) : ?>

@@ -899,6 +899,17 @@ section.section.contacts .section__titleWrap {
     color: #fff;
     text-align: center;
 }
+
+.slick-no-slide .slick-track {
+    width: 100% !important;
+    left: 0 !important;
+    text-align: center;
+}
+
+.slick-no-slide .slick-slide {
+    float: none;
+    display: inline-block;
+}
 /* ---------------------------------------------------------------------------------------------------- */
 /* ----------------------------->>> contacts End <<<--------------------------------------------------- */
 /* ---------------------------------------------------------------------------------------------------- */

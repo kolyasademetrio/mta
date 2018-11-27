@@ -1,6 +1,7 @@
 <?php /* Template Name: CustomPage */ ?>
 
 <?php get_header(); ?>
+<?php $locale = pll_current_language(); ?>
 
     <?php
     $about_bg = get_field('about_bg');
@@ -126,9 +127,9 @@
 
     <?php
     $contacts_bg = get_field('contacts_bg', 'option');
-    $contacts_addresses = get_field('contacts_addresses', 'option');
-    $contacts_phones = get_field('contacts_phones', 'option');
-    $contacts_emailes = get_field('contacts_emailes', 'option');
+    $contacts_addresses = get_field('contacts_addresses_'.$locale, 'option');
+    $contacts_phones = get_field('contacts_phones_'.$locale, 'option');
+    $contacts_emailes = get_field('contacts_emailes_'.$locale, 'option');
     ?>
 
     <section class="section contacts" style="background-image: url(<?php echo !empty($contacts_bg) ? $contacts_bg : ''; ?>)">
