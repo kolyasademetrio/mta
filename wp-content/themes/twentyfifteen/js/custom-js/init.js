@@ -1,25 +1,41 @@
 jQuery(document).ready(function($) {
 
-    function slickPartnersInit($that){
-        $that.on('init', function(event, slick){
+    // header__humburger
+    $('.header__humburger').magnificPopup({
+        type:'inline',
+        removalDelay: 500,
+        mainClass: 'mfp-fade popup_inline',
+        showCloseBtn: true,
+        closeMarkup: '<div class="mfp-close">&times;</div>',
+        closeBtnInside: true,
+        closeOnContentClick: false,
+        closeOnBgClick: true,
+        alignTop: false,
+        fixedContentPos: true,
+        callbacks: {
+            open: function() {
+            },
+            close: function() {
 
-            var slickListWidth = $(this).find('.slick-list').width(),
-                slickTrackWidth = $(this).find('.slick-track').width();
+            },
+            beforeOpen: function() {
+                var $triggerEl = $(this.st.el),
+                    newClass = 'meinMenu__popup';
+                this.st.mainClass = this.st.mainClass + ' ' + newClass;
+            }
+        }
+    });
 
-            /*if ( slickTrackWidth < slickListWidth ) {
-                $(this).css({
-                    'margin-left': 'auto',
-                    'margin-right': 'auto',
-                    'display': 'table',
-                });
-            }*/
-        });
+    $(document).on('click', '.meinMenu__popup .menu-item>a', function(){
+        setTimeout(function(){
+            $.magnificPopup.close();
+        }, 1000);
 
+    });
+
+    (function(){
         var slidesToShow = 7,
-            windowWidth = $(window).width(),
-            slidesQty = $that.find('.partner__item').length;
-        
-        console.log( slidesQty );
+            windowWidth = $(window).width();
 
         if ( windowWidth < 1200 && windowWidth > 767 ) {
             slidesToShow = 5;
@@ -27,19 +43,17 @@ jQuery(document).ready(function($) {
             slidesToShow = 3;
         }
 
-        $that.slick({
-            infinite: true,
-            slidesToShow: slidesToShow,
-            slidesToScroll: 1,
-            dots: false,
-            variableWidth: false,
-            arrows: false,
-            autoplay: false,
-            centerMode: true,
-            centerPadding: '0px',
+        $('.partners__list').owlCarousel({
+            center: true,
+            loop: true,
+            items: slidesToShow,
+            autoplay: true,
+            autoplayTimeout:3000
         });
-    }
+    })();
 
-    slickPartnersInit( $('.partners__list') );
+
+    new WOW().init();
+
 });
 

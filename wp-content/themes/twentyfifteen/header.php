@@ -9,7 +9,9 @@
  * @since Twenty Fifteen 1.0
  */
 ?><!DOCTYPE html>
-<?php if ( wp_is_mobile() ) {
+<?php
+$mainClass = '';
+if ( wp_is_mobile() ) {
 	$mainClass = 'is_mobile';
 } ?>
 <html <?php language_attributes(); ?> class="no-js <?php echo $mainClass; ?>" xmlns="http://www.w3.org/1999/html">
@@ -25,7 +27,10 @@
 	<?php wp_head(); ?>
 </head>
 
-<body <?php body_class(); ?>>
+<?php
+	$bodyClass = (!is_front_page()) ? 'internalPages' : 'homePage';
+?>
+<body <?php body_class($bodyClass); ?>>
 
 <?php $locale = pll_current_language(); ?>
 
@@ -56,14 +61,20 @@
 			<div class="header__addWrap containerCenter short">
 				<?php if( function_exists('kama_breadcrumbs') && !is_front_page() ) kama_breadcrumbs(' / '); ?>
 
+				<?php if ( !is_archive() ) : ?>
 				<h1 class="page__title">
 					<?php the_title(); ?>
 				</h1>
+				<?php endif; ?>
 			</div>
 			<?php endif; ?>
 
             <div class="header__menus" id="header__menus">
                 <div class="containerCenter">
+					<a href="#menu__mobile" class="header__humburger">
+						<span></span><span></span><span></span>
+					</a>
+
 					<a href="/" class="header__logoLink logo__hidden">
 						<span class="header__logoImgWrap">
 							<img src="<?php the_field('logo', 'option'); ?>" alt="">
@@ -101,7 +112,37 @@
             </div>
 		</header>
 
+		<div id="menu__mobile" class="menu__mobile mfp-hide">
+			<div class="menu__mobileInner">
+				<ul class="header__langsWrap"><?php pll_the_languages();?></ul>
+				<nav class="header__nav">
+					<?php $menu_name = 'main_menu_'. $locale; ?>
+					<?php
+					wp_nav_menu( array(
+						'theme_location'  => 'primary',
+						'menu'            => 'main_menu_ru',
+						'container'       => '',
+						'container_class' => '',
+						'container_id'    => '',
+						'menu_class'      => 'header__menu',
+						'menu_id'         => '',
+						'echo'            => true,
+						'fallback_cb'     => 'wp_page_menu',
+						'before'          => '',
+						'after'           => '',
+						'link_before' => '',
+						'link_after'  => '',
+						'items_wrap'      => '<ul id="%1$s" class="%2$s">%3$s</ul>',
+						'depth'           => 0,
+						'walker'          => '',
+					) );
+					?>
+				</nav>
+			</div>
+		</div>
+
 		<div id="main" class="site__main">
+
 
 			
 

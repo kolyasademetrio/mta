@@ -461,13 +461,23 @@ function custom_scripts()
     ================================= Подключение стилей ============================================
     ================================================================================================*/
     // Load our main stylesheet
-    wp_enqueue_style('twentyfourteen-style', get_stylesheet_uri(), array('bootstrap', 'slick-slider-css', 'magnific-popup', 'fonts'));
+    wp_enqueue_style('twentyfourteen-style', get_stylesheet_uri(), array('bootstrap', 'slick-slider-css', 'magnific-popup', 'fonts',
+        'owl-carousel-css', 'owl-carousel-theme-default-css', 'animate'));
     // Load bootstrap stylesheet
     wp_register_style('bootstrap', get_template_directory_uri() . '/css/bootstrap.css');
     wp_enqueue_style('bootstrap');
-    // Load flexslider stylesheet
+    // Load animate stylesheet
+    wp_register_style('animate', get_template_directory_uri() . '/plugins/animation/animate.css');
+    wp_enqueue_style('animate');
+    // Load slick-slider stylesheet
     wp_register_style('slick-slider-css', get_template_directory_uri() . '/plugins/slick-slider/slick.css');
     wp_enqueue_style('slick-slider-css');
+    // Load owl-carousel stylesheet
+    wp_register_style('owl-carousel-css', get_template_directory_uri() . '/plugins/owl-carousel/owl.carousel.min.css');
+    wp_enqueue_style('owl-carousel-css');
+    // Load owl-carousel-theme-default stylesheet
+    wp_register_style('owl-carousel-theme-default-css', get_template_directory_uri() . '/plugins/owl-carousel/owl.theme.default.css');
+    wp_enqueue_style('owl-carousel-theme-default-css');
     // Load magnific-popup stylesheet
     wp_register_style('magnific-popup', get_template_directory_uri() . '/plugins/magnific-popup/magnific-popup.css');
     wp_enqueue_style('magnific-popup');
@@ -488,8 +498,14 @@ function custom_scripts()
     wp_deregister_script('jquery');
     wp_register_script('jquery', get_template_directory_uri() . '/js/custom-js/jquery-1.12.3.min.js', NULL, NULL, true);
     wp_enqueue_script('jquery');
+
+    wp_register_script('wow-js', get_template_directory_uri() . '/plugins/animation/wow.min.js', array('jquery'), NULL, true);
+    wp_enqueue_script('wow-js');
+
     wp_register_script('slick-slider', get_template_directory_uri() . '/plugins/slick-slider/slick.js', array('jquery'), NULL, true);
     wp_enqueue_script('slick-slider');
+    wp_register_script('owl-carousel-js', get_template_directory_uri() . '/plugins/owl-carousel/owl.carousel.min.js', array('jquery'), NULL, true);
+    wp_enqueue_script('owl-carousel-js');
     wp_register_script('magnific-popup-js', get_template_directory_uri() . '/plugins/magnific-popup/jquery.magnific-popup.min.js', array('jquery'), NULL, true);
     wp_enqueue_script('magnific-popup-js');
     wp_register_script('maskedinput-js', get_template_directory_uri() . '/plugins/maskedinput/jquery.maskedinput.min.js', array('jquery'), NULL, true);
@@ -878,22 +894,12 @@ class Kama_Breadcrumbs
 
                 // первая страница архива типа записи
                 if (is_post_type_archive() && !$paged_num) {
-                    if (is_shop()) {
-                        $home_after = 'Ассортимент';
-                    } else {
-                        $home_after = $pt_title;
-                    }
+                    $home_after = $pt_title;
                 } // singular, paged post_type_archive, tax
                 else {
-                    /*if ( is_shop() ) {
-                        $home_after = sprintf( $linkpatt, get_post_type_archive_link($ptype->name), 'Ассортимент' );
+                    /*$home_after = sprintf($linkpatt, get_post_type_archive_link($ptype->name), $pt_title);
 
-                        $home_after .= ( ($paged_num && ! is_tax()) ? $pg_end : $sep ); // пагинация
-                    } else {*/
-                    $home_after = sprintf($linkpatt, get_post_type_archive_link($ptype->name), $pt_title);
-
-                    $home_after .= (($paged_num && !is_tax()) ? $pg_end : $sep); // пагинация
-                    /*}*/
+                    $home_after .= (($paged_num && !is_tax()) ? $pg_end : $sep); // пагинация*/
                 }
             }
         }
@@ -1084,5 +1090,10 @@ add_action('init', function () {
     pll_register_string('twentyfifteen', 'Подробнее');
     pll_register_string('twentyfifteen', 'Контакты');
     pll_register_string('twentyfifteen', 'Категории');
+    pll_register_string('twentyfifteen', '404');
+    pll_register_string('twentyfifteen', 'Ошибка 404. Страница не найдена');
+    pll_register_string('twentyfifteen', 'На главную');
+    pll_register_string('twentyfifteen', 'Развернуть текст');
+    pll_register_string('twentyfifteen', 'Свернуть текст');
 });
 

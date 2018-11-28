@@ -7,18 +7,19 @@
     $about_bg = get_field('about_bg');
     $about_content = get_field('about_content');
     ?>
-    <section class="section aboutUs" style="background-image: url(<?php echo !empty($about_bg) ? $about_bg : ''; ?>)">
+    <section class="section aboutUs" id="aboutUs" style="background-image: url(<?php echo !empty($about_bg) ? $about_bg : ''; ?>)">
         <div class="section__titleWrap left_line light">
             <div class="section__title"><?php pll_e('О компании'); ?></div>
         </div>
         <div class="section__content containerCenter short">
             <?php if ( !empty($about_content) ) : ?>
                 <?php echo $about_content; ?>
+                <div class="about__readMore" closetext="<?php pll_e('Свернуть текст'); ?>" opentext="<?php pll_e('Развернуть текст'); ?>"><?php pll_e('Развернуть текст') ?></div>
             <?php endif; ?>
         </div>
     </section>
 
-    <section class="section products">
+    <section class="section products" id="products">
         <div class="section__titleWrap right_line">
             <div class="section__title"><?php pll_e('Продукция'); ?></div>
         </div>
@@ -90,7 +91,7 @@
                                     <img src="<?php echo $delivery_benefit['img']; ?>" alt="">
                                 </div>
                                 <div class="delivery__benefitItem_title">
-                                    <?php echo $delivery_benefit['title']; ?>
+                                    <?php echo wp_is_mobile() ? $delivery_benefit['excerpt'] : $delivery_benefit['title']; ?>
                                 </div>
                             </li>
                         <?php endforeach; ?>
@@ -109,7 +110,7 @@
         </div>
         <div class="section__content containerCenter">
             <?php if ( !empty( $partners ) ) : ?>
-                <ul class="partners__list">
+                <ul class="partners__list owl-carousel">
                     <?php foreach( $partners as $partner ) : ?>
 
                         <?php if ( $partner['show_partner'] ) : ?>
@@ -132,7 +133,7 @@
     $contacts_emailes = get_field('contacts_emailes_'.$locale, 'option');
     ?>
 
-    <section class="section contacts" style="background-image: url(<?php echo !empty($contacts_bg) ? $contacts_bg : ''; ?>)">
+    <section class="section contacts" id="contacts" style="background-image: url(<?php echo !empty($contacts_bg) ? $contacts_bg : ''; ?>)">
         <div class="section__titleWrap left_line light">
             <div class="section__title"><?php pll_e('Контакты'); ?></div>
         </div>
@@ -141,7 +142,7 @@
                 <?php if ( !empty( $contacts_addresses ) ) : ?>
                     <li class="contacts__item address">
                         <div class="contacts__header">
-                            <img src="<?php echo get_field('contacts__address__icon'); ?>" alt="">
+                            <img src="<?php echo get_field('contacts__address__icon', 'option'); ?>" alt="">
                         </div>
                         <div class="contacts__footer">
                             <?php echo $contacts_addresses; ?>
@@ -152,7 +153,7 @@
                 <?php if ( !empty( $contacts_phones ) ) : ?>
                     <li class="contacts__item phones">
                         <div class="contacts__header">
-                            <img src="<?php echo get_field('contacts__phones__icon'); ?>" alt="">
+                            <img src="<?php echo get_field('contacts__phones__icon', 'option'); ?>" alt="">
                         </div>
                         <div class="contacts__footer">
                             <?php foreach ( $contacts_phones as $phone ) : ?>
@@ -165,7 +166,7 @@
                 <?php if ( !empty( $contacts_emailes ) ) : ?>
                     <li class="contacts__item emails">
                         <div class="contacts__header">
-                            <img src="<?php echo get_field('contacts__emailes__icon'); ?>" alt="">
+                            <img src="<?php echo get_field('contacts__emailes__icon', 'option'); ?>" alt="">
                         </div>
                         <div class="contacts__footer">
                             <?php foreach ( $contacts_emailes as $email ) : ?>
@@ -176,6 +177,10 @@
                 <?php endif; ?>
             </ul>
         </div>
+    </section>
+
+    <section class="section map">
+        <iframe width="100%" height="100%" src="https://maps.google.com/maps?width=100%&amp;height=100%&amp;hl=<?php echo pll_current_language(); ?>&amp;coord=48.000865, 33.451860&amp;q=50014%2C%20%D0%94%D0%BD%D0%B5%D0%BF%D1%80%D0%BE%D0%BF%D0%B5%D1%82%D1%80%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F%20%D0%BE%D0%B1%D0%BB.%2C%20%D0%B3.%20%D0%BA%D1%80%D0%B8%D0%B2%D0%BE%D0%B9%20%D0%A0%D0%BE%D0%B3%2C%20%D1%83%D0%BB.%20%D0%AE%D0%BD%D1%8B%D1%85%20%D0%BC%D0%BE%D1%80%D1%8F%D0%BA%D0%BE%D0%B2%2C%208+(mt-alliance.com)&amp;ie=UTF8&amp;t=&amp;z=14&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"><a href="https://www.maps.ie/create-google-map/">Add map to website</a></iframe>
     </section>
 
 
